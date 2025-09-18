@@ -1,0 +1,113 @@
+/* card section  */
+.card-container{
+  
+    width: auto;
+    background-color: lightgreen;
+    height: 1000px;
+    display: flex; 
+    gap: 20px;
+    justify-content: center;
+}
+.card{
+    width:auto;
+    height: 200px;
+    
+    display: grid;
+    gap: 40px;
+   grid-template-columns: repeat(3,3fr); 
+    
+}
+
+.card-content{
+   
+    height: 260px;
+    width: 314px;
+   padding: 20px;
+   box-shadow: 4px 4px 4px 4px white;
+   background-color: white;
+   
+}
+.icon{
+    display: flex;
+    gap: 238px;
+    align-items: center;
+    padding-bottom: 20px;
+  
+   
+}
+.card-img{
+    width: 20px;
+}
+.btn{
+    display: flex;
+    gap: 12px;
+    
+   
+   padding-top: 10px;
+ align-items: center;
+}
+.call-title{
+    padding-top: 20px;
+}
+.card-btn{
+    border: 1px solid;
+    /* padding-right:71px; */
+     text-align: center;
+    border-radius: 4px;
+    display: flex;
+    color: gray;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 30px;
+    
+}
+.card-right{
+    /* padding-right:86px; */
+    border: 1px solid;
+    text-align: center;
+    border-radius: 4px;
+    display: flex;
+    color: grey;
+    justify-content: center;
+    align-items: center;
+     padding: 5px 40px;
+     background-color: green;
+     color: white;
+   
+}
+h1{
+    font-weight: bold;
+    font-size: 20px;
+}
+/* call  */
+.gray{
+    font-size: 18px;
+    font-weight: 400px;
+    color: grey;
+
+}
+/* history card  */
+.history{
+      width: 
+      400px;
+    height:865px;
+   
+    background-color: white;
+}
+h2{
+    padding: ;
+}
+.card-history{
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 20px;
+    margin-right: 20px;
+    box-shadow: 10px 10px 10px 10px white;
+}
+.history-card{
+    border: 1px solid;
+    padding: 4px 15px;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+}
