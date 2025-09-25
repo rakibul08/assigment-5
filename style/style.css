@@ -4,9 +4,11 @@
     width: auto;
     background-color: lightgreen;
     height: 1000px;
-    display: flex; 
+    display:flex;
+   
     gap: 20px;
     justify-content: center;
+    margin:0 auto;
 }
 .card{
     width:auto;
@@ -94,9 +96,16 @@ h1{
    
     background-color: white;
 }
-h2{
-    padding: ;
+.gray-all{
+    border: 2px solid red;
+    background-color: gray;
+    border-radius: 5px;
+    padding:4px 6px ;
+    width: 40px;
+    height:auto;
+ 
 }
+
 .card-history{
     display: flex;
     justify-content: space-between;
@@ -110,4 +119,12 @@ h2{
     border-radius: 15px;
     background-color: green;
     color: white;
+}
+
+/* moblie */
+@media (min-width: 481px) and (max-width: 767px) {
+ .card-container{
+   display:block;
+
+ }
 }
